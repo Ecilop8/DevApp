@@ -77,7 +77,6 @@ Saisir texte
 	
 	Fin tant que
 	
-	i
 	
 	Tant que palin = true et i < = longueur(texte)
 	
@@ -91,4 +90,41 @@ Saisir texte
 	
 	Fin du tant que
 	
+	Si palin = true 
+		
+		Afficher "C'est un palindrome"
+		
+	Sinon 
+		
+		Afficher "Ce n'est pas un palindrome"
 	
+Fin du programme
+
+4.
+Début du programme
+
+ CONST : TAILLE = 5
+
+ var tab [TAILLE]   (-1 3 7 2 9)
+ i = 1
+ tampom
+ croissant = TRUE
+ 
+
+ 
+ Tant que i <= TAILLE et croissant = TRUE
+ 
+	tampon = tab [i]
+	
+	Si tampon > tab[i+1]
+	
+		croissant = FALSE
+	
+	Fin du si
+	
+	i = i + 1
+	
+ Fin du Tant que 
+ 
+ 
+	Si croissant = true afficher "tableau en ordre croissant"
