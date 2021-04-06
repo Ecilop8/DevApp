@@ -1,0 +1,94 @@
+﻿1.
+
+x <- 3				x = 3
+y <- 5				x = 3	y = 5
+x <- y				x = 5   y = 5
+z <- x + y			x = 5	y = 5	z = 10
+y <- z - 2			x = 5	y = 8	z = 10
+x <- x + 4			x = 9	y = 8	z = 10
+z <- y - x			x = 9	y = 8	z = -1
+x <- y - z			x = 9	y = 8	z = -1
+y <- y + x			x = 9	y = 17	z = -1
+x <- (y - x) + z 	7 17 -1
+z <- z = x			7 17 6
+
+2.
+Début programme 
+ 
+ var nbUn
+ var nbDeux
+ var nbGrand
+ var nbPetit
+ var reste
+ var résultat = 0
+ 
+ Afficher "Entrez deux nombres plus grand que 0"
+ 
+ Saisir nbUn
+ Saisir nbDeux
+ 
+ Si nbUn > nbDeux alors
+ 
+	nbGrand = nbUn
+	nbPetit = nbDeux
+	
+ sinon
+    
+	nbGrand = nbDeux
+	nbPetit = nbUn
+ 
+ Fin du si.
+ 
+
+ 
+ Tant que nbGrand < 0
+ 
+	nbGrand = nbGrand - nbPetit
+	resultat = resultat + 1
+ 
+ Fin du tant que
+ 
+ reste = nbGrand + nbPetit
+ 
+ Afficher "le résultat est " résultat " et il reste" reste
+ 
+Fin du programme
+ 
+ 
+3.
+Début programme 
+	
+	var texte
+	var texteInvers
+	var lgTexte
+	var i = 1
+	palin = true
+	
+Afficher "Entrez un texte"
+Saisir texte
+
+	lgTexte = longueur(texte)
+	
+	Tant que lgTexte < 0
+	
+	texteInvers = texteInvers + caract(texte, lgTexte)
+	
+	lgTexte = lgTexte - 1
+	
+	Fin tant que
+	
+	i
+	
+	Tant que palin = true et i < = longueur(texte)
+	
+	si caract(texte, i) != caract(texteInvers, i)
+	
+	palin  = false
+	 
+	Fin du si
+	
+	i = i + 1
+	
+	Fin du tant que
+	
+	

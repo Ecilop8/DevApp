@@ -1,0 +1,51 @@
+Début prog
+	Déclaration variables
+		txtBase = "";
+		txtRech = "";
+		lgTextBase = 0;
+		lgTxtRech = 0;
+		i = 0;
+		j = 0;
+		a = 1;
+		nbreFois = 0;
+		premPos = 0;
+		premPos2 = 0;
+		derPos1 = 1;
+		derPos2 = 1;
+	
+	Afficher "Entrez un texte de base" 
+	
+	txtBase = entre;
+	
+	Afficher "Entrez un texte à rechercher"
+	
+	txtRech = entre;
+	
+	lgTextBase = longueur(txtBase);
+	
+	lgTxtRech = longueur(txtRech);
+	
+	Tant que j <= lgTxtBase {
+		
+		si (SousChaine(txtBase, a, lgTxtRech) = txtRech){
+			nbreFois = nbreFois + 1;
+			
+			Si (i=0) {
+			 premPos = a;
+			 premPos2 = lgTxtRech;
+			 i = 1;
+			}
+			
+			}sinon {
+			a = a + 1;
+			lgTxtRech = lgTxtRech + 1;
+			j = j + 1;
+			derPos1 = a;
+			derPos2 = derPos1 + lgTxtRech;
+		}	
+	Fin tant que
+	
+		
+	Afficher "Le texte à rechercher apparait la première fois en position :" premPos "et " premPos2
+	Afficher "Le texte à rechercher apparait " nbreFois " fois."
+	Afficher "Le texte à rechercher apparait la dernière fois en position :" derPos1 "et " derPos2

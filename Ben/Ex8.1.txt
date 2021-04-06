@@ -1,0 +1,22 @@
+8.1
+
+Écrire le programme qui affiche les tables de multiplication de 1 à 10. 
+( 1 X 1 = 1 à 10 X 10 = 100)
+
+ var unite = 0
+ var table = 0
+ var resultat
+ 
+ Tant que table <= 10
+	
+	table = table + 1
+	unite = 0
+	Tant que unite <= 10
+		
+		unite = unite + 1
+		resultat = table x unite
+		
+		Afficher unite "x " table "= " resultat
+	Fin du tant que
+ Fin du tant que
+	

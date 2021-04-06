@@ -1,0 +1,46 @@
+Début programme
+	Déclaration variables
+		texte = "";
+		caractere = '';
+		premPos = 0;
+		nbreCaract = 0;
+		longueurText (N);
+		i = 1;
+		j = 1;
+		
+	Fin déclaration
+		
+	Afficher "Entrez un texte"
+		texte = entre;
+		
+	Afficher "Entrez un caractère"
+		caractere = entre;
+		
+	longueurText = longeur(texte);
+	
+	Tant que premPos == 0 ´{
+		Si caractere = caract(texte, j)(
+			premPos = j)
+			
+		Fin si }
+		j = j + 1;
+	Fin tant que
+	
+	Tant que i <= longueurText
+		Si caractere = caract(texte, i)(
+			nbreCaract = nbreCaract + 1;)
+		Fin si
+	Fin tant que
+		
+	Afficher "la première position = " premPos;
+	Afficher "le caractère apparait " nbreCaract " fois dans le texte"
+		
+		
+		
+		
+		
+		
+	
+	
+	
+Fin du programme

@@ -1,0 +1,29 @@
+Début programme
+	Déclaration variable
+	
+	txtSource = "";
+	txtRech = "";
+	j = 1;
+	lgTextSource = 0;
+	lgTxtRech = 0
+	a = 1;
+	
+	Afficher "Entrez un texte source" 
+	
+	txtSource = entre;
+	
+	Afficher "Entrez un texte à rechercher"
+	
+	txtRech = entre;
+	
+	lgTextSource = longueur(txtSource);
+	
+	lgTxtRech = longueur(txtRech);
+	
+	Tant que j <= lgTxtSource {
+		
+		si (SousChaine(txtSource, a, lgTxtRech) = txtRech){
+			
+		
+		}	
+	Fin tant que
