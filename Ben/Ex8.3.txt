@@ -28,6 +28,6 @@ Début programme
 	
       Afficher nombreBase ” est un nombre parfait”
 	  
-    FinSi
-  FinPour
+    Fin du si
+  Fin du pour
 		
