@@ -20,9 +20,11 @@ VAR an : N
 
 Fin strucutre
 
-cient [10] : personne
+VAR cient : personne [10] 
 
-Pour i <= TAILLE
+Pour i allant de 0 à TAILLE
+
+client[i] <- CREER personne 
 
 AFFICHER "Saisir le nom"
 SAISIR client[i].nom
