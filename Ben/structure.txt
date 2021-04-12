@@ -1,6 +1,8 @@
 Debut programme
 
+VAR TAILLE  = 10
 VAR i 
+ 
  
 Structure Personne
 
@@ -20,7 +22,7 @@ Fin strucutre
 
 cient [10] : personne
 
-Pour i <= 10
+Pour i <= TAILLE
 
 AFFICHER "Saisir le nom"
 SAISIR client[i].nom
@@ -38,3 +40,5 @@ AFFICHER "Saisir le mois de naissance"
 SAISIR client[i].naissance.an
 
 Fin du pour
+
+Fin du programme
