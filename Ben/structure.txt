@@ -22,6 +22,19 @@ cient [10] : personne
 
 Pour i <= 10
 
-client [i] <- CREER Personne
+AFFICHER "Saisir le nom"
+SAISIR client[i].nom
+
+AFFICHER "Saisir le prenom"
+SAISIR client[i].prenom
+
+AFFICHER "Saisir le jour de naissance"
+SAISIR client[i].naissance.jour
+
+AFFICHER "Saisir le mois de naissance"
+SAISIR client[i].naissance.mois
+
+AFFICHER "Saisir le mois de naissance"
+SAISIR client[i].naissance.an
 
 Fin du pour
