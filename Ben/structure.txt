@@ -32,6 +32,8 @@ SAISIR client[i].nom
 AFFICHER "Saisir le prenom"
 SAISIR client[i].prenom
 
+client[i].naissance <- CREER date
+
 AFFICHER "Saisir le jour de naissance"
 SAISIR client[i].naissance.jour
 
