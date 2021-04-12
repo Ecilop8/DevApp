@@ -1,0 +1,27 @@
+Debut programme
+
+VAR i 
+ 
+Structure Personne
+
+VAR nom : T
+VAR prenom : T
+VAR naissance : Date
+
+Fin structure
+
+Structure Date
+
+VAR jour : N
+VAR mois : N
+VAR an : N
+
+Fin strucutre
+
+cient [10] : personne
+
+Pour i <= 10
+
+client [i] <- CREER Personne
+
+Fin du pour
